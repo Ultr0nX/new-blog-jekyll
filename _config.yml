@@ -46,7 +46,7 @@ collections:
     permalink: /writeups/:title/
   projects:
     output: true
-    permalink: /projects/:name/
+    permalink: /projects/:name
   explorations:   # 👈 new collection
     output: true
     permalink: /explorations/:name
