@@ -1,19 +1,14 @@
 ---
 layout: default
-title: UltraDives - Explorations
+title: Explorations
 ---
 
-<div class="page-header">
-    <h1>{{ page.title }}</h1>
-</div>
+<h1>UltraDeepDives</h1>
 
-<ul class="post-list">
-    {% for exploration in site.explorations reversed %}
+<ul>
+  {% for exp in site.explorations %}
     <li>
-        <h2>
-            <a href="{{ exploration.url | relative_url }}">{{ exploration.title }}</a>
-        </h2>
-        <span class="post-meta">{{ exploration.date | date: "%b %-d, %Y" }}</span>
-        </li>
-    {% endfor %}
+      <a href="{{ exp.url }}">{{ exp.title }}</a> — {{ exp.description }}
+    </li>
+  {% endfor %}
 </ul>

@@ -12,11 +12,6 @@
     },
     
     {
-      "source": "/writeups",
-      "destination": "/writeups.html"
-    },
-    
-    {
       "source": "/projects",
       "destination": "/projects.html"
     },
@@ -24,10 +19,6 @@
     {
       "source": "/explorations/:path",
       "destination": "/explorations/:path.html"
-    },
-    {
-      "source": "/writeups/:path",
-      "destination": "/writeups/:path.html"
     },
     {
       "source": "/projects/:path",
