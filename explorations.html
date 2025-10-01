@@ -1,0 +1,14 @@
+---
+layout: default
+title: Explorations
+---
+
+<h1>UltraDeepDives</h1>
+
+<ul>
+  {% for exp in site.explorations %}
+    <li>
+      <a href="{{ exp.url }}">{{ exp.title }}</a> — {{ exp.description }}
+    </li>
+  {% endfor %}
+</ul>
