@@ -7,10 +7,6 @@
     {
       "source": "/explorations",
       "destination": "/explorations.html"
-    },
-    {
-      "source": "/projects",
-      "destination": "/projects.html"
     }
   ]
 }
