@@ -1,12 +1,37 @@
 {
   "rewrites": [
+    
+    {
+      "source": "/blog",
+      "destination": "/blogs.html"
+    },
+    
     {
       "source": "/explorations",
       "destination": "/explorations.html"
     },
+    
+    {
+      "source": "/writeups",
+      "destination": "/writeups.html"
+    },
+    
+    {
+      "source": "/projects",
+      "destination": "/projects.html"
+    },
+    
     {
       "source": "/explorations/:path",
       "destination": "/explorations/:path.html"
+    },
+    {
+      "source": "/writeups/:path",
+      "destination": "/writeups/:path.html"
+    },
+    {
+      "source": "/projects/:path",
+      "destination": "/projects/:path.html"
     }
   ]
 }
