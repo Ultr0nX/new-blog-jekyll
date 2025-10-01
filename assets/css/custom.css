@@ -247,7 +247,7 @@ h1::after { display: none !important; }
 
 /* Mobile responsive fixes */
 @media (max-width: 768px) {
-    body { font-size: 15px; }
+    body { font-size: 17px; }
 
     header {
         flex-direction: column;
