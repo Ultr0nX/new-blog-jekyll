@@ -7,6 +7,10 @@
     {
       "source": "/explorations",
       "destination": "/explorations.html"
+    },
+    {
+      "source": "/explorations/:path",
+      "destination": "/explorations/:path.html"
     }
   ]
 }
