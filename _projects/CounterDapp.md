@@ -5,7 +5,7 @@ date: 2025-02-06
 layout: default
 ---
 
-*Live link* -> https://simple-counter-dapp-fsvq.vercel.app/
+*Live link* -> [Simple Counter Dapp](https://simple-counter-dapp-fsvq.vercel.app)
 
 To Check this you need to have `metamask` installed in the browser .
 
