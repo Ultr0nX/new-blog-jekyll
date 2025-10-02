@@ -218,14 +218,15 @@ pre {
 }
 
 /* Blinking cursor */
-h1::after { display: none !important; }
+/* h1::after { display: none !important; } */
 .blinking-cursor::after {
     content: "_" !important;
     animation: blink 1s infinite !important;
-    color: blue !important;
+    color: rgb(255, 255, 255) !important;
     display: inline !important;
 }
 .blinking-cursor { display: inline; }
+
 @keyframes blink {
     0%, 50% { opacity: 1 !important; }
     51%, 100% { opacity: 0 !important; }
@@ -292,3 +293,22 @@ h1::after { display: none !important; }
     .tagline { font-size: 0.9rem; }
 }
 
+
+#typewriter {
+  color: #02bb02; /* green hacker color */
+  font-size: 1.4rem;
+  font-family: 'Courier New', monospace;
+  white-space: nowrap;
+  overflow: hidden; /* cursor */
+  width: 0; /* start hidden */
+  animation: typing 3s steps(50, end) forwards, blinkCursor 0.4s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blinkCursor {
+  50% { border-color: transparent }
+}

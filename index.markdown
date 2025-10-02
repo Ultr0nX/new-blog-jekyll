@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome ! , this is *Sunil Kumar* aka  0xc1ph3r or Ultron
+<h1 id="typewriter"></h1>
 
 **I am<span class="blinking-cursor"></span>**
 
