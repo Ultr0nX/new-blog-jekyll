@@ -6,7 +6,9 @@ categories: [web3, security, learning]
 ---
 
 
-IPFS is a peer-to-peer, distributed file storage protocol designed to make the web faster, safer, and more open. Unlike traditional web systems that retrieve files from centralized servers using URLs, IPFS retrieves content based on what it is rather than where it is.
+IPFS is a peer-to-peer, distributed file storage protocol designed to make the web faster, safer, and more open. 
+
+Unlike traditional web systems that retrieve files from centralized servers using URLs, IPFS retrieves content based on what it is rather than where it is.
 
 ## Core Concepts of IPFS
 
