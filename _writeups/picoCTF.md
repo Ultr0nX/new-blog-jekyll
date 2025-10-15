@@ -68,10 +68,12 @@ cyphertext:201314874420639119536176459332500197908092184271819748688996281905609
 And I got the `N` , `e` and `c`(cipher text)
 
 After observing the `Source Code` , I found that the `N` value is about `1024` bits (**Weakness 1** / vulnerability 1 of this implementation) , and that can be easily factorize in 2025 (at present).So I went for the online tool [Alpertron](https://www.alpertron.com.ar/ECM.HTM) and factorized it . That gave me four divisors :
-    - 1 
-    - 2
-    - 11056349476874531554808796083310456909137574070308554174494827624787521523544818635186309262592081044506651270142051527703798740023436036619773598783953409
-    - N itself.
+- 1 
+- 2
+- 11056349476874531554808796083310456909137574070308
+  55417449482762478752152354481863518630926259208104
+  4506651270142051527703798740023436036619773598783953409
+- N itself.
 
 So after seeing those results the `p` & `q`( these are the prime numbers , use to get the value of `N` using the formula `N = p * q` ) values might be the 2nd and the 3rd one among the four divisors. But initially I was a bit confused about p value because in the source code it is mentioned that `p,q` are about 512 bits each. But I wanted to check whether  multiplying `p` and `q` gets our `N` or not  , and I got it exactly. Finally we have values of p , q , c , e , N .
 
