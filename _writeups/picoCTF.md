@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "picoCTF challenges - writeUps"
+title: " 👉 picoCTF challenges - writeUps"
 # date: 2025-09-16
 categories: cyber security , cryptography
 ---
