@@ -5,7 +5,7 @@ date: 2025-02-06
 layout: default
 ---
 
-**Live link** -> [Simple Counter Dapp](https://simple-counter-dapp-fsvq.vercel.app)
+**Live link 👉** -> [Simple Counter Dapp](https://simple-counter-dapp-fsvq.vercel.app)
 
 **Code :** [github](https://github.com/Ultr0nX/simpleCounterDapp)
 

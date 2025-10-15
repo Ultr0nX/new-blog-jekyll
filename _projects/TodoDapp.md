@@ -5,7 +5,7 @@ date: 2025-02-12
 layout: default
 ---
 
-**Live Link** -> [TodoDapp](https://simple-to-do-dapp.vercel.app/)
+**Live Link 👉** -> [TodoDapp](https://simple-to-do-dapp.vercel.app/)
 
 **Code :** [github](https://github.com/Ultr0nX/simpleToDoDapp) 
 
