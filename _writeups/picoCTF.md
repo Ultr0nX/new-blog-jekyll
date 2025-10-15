@@ -2,7 +2,7 @@
 layout: default
 title: "picoCTF challenges - writeUps"
 # date: 2025-09-16
-categories: ctf Blockchain Solidity
+categories: cyber security , cryptography
 ---
 
 **Challenge divisions :** [MEDIUM](#medium-challs) . [EASY](#easy-challs) . 
