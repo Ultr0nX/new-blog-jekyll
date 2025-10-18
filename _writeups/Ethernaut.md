@@ -1,6 +1,6 @@
 ---
 layout: default
-title: " 👉 Ethernaut Challenges WriteUps "
+title: "Ethernaut Challenges WriteUps "
 # date: 2025-09-16
 categories: ctf Blockchain Solidity
 ---
