@@ -2,7 +2,7 @@
 layout: default
 title: "Ethernaut Challenges WriteUps "
 # date: 2025-09-16
-categories: ctf Blockchain Solidity
+categories: [CTF, Blockchain, Solidity]
 ---
 
 **Easy access :** [Fallback](#fallback) . [Fal1out](#fal1out) . [CoinFlip](#coinflip) . [Telephone](#telephone) . [Token](#token) . [Delegation](#delegation) . [Force](#force) . [Vault](#vault) . [King](#king) . [Re-entrancy](#re-entrancy) . [Privacy](#privacy) . [GatekeeperOne](#gatekeeperone)

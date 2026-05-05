@@ -2,7 +2,7 @@
 layout: default
 title: "QnQSec CTF - 2025"
 # date: 2025-09-16
-categories: Security CTF's BlockChain
+categories: [Security, CTF, Blockchain]
 ---
 
 18-10-2025 — Today I took part in `QnQSec CTF 2025 `and solved two Blockchain challenges. They were a bit easy for me because I had already solved similar ones before. But the hard part was interacting with the given details and getting the flag correctly.

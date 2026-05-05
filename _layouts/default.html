@@ -11,8 +11,13 @@
 
 </head>
 <body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
     <header id="header">
-    <div>
+    <div class="header-left">
         <a href="/" class="cipher">@Ultron</a>
         <span class="social-links">
             <a href="https://x.com/Ultr0nX_" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -27,8 +32,7 @@
     <nav class="nav-links">
         <!-- <a href="/" class="active">Home</a> Removed -->
         <!-- <a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a> -->
-        <a href="/blog/" {% if page.url == "/blog/" %}class="active"{% endif %}>UltraLog's</a>
-        <a href="/explorations" {% if page.url == "/explorations/" %}class="active"{% endif %}>UltraDives</a>
+        <a href="/blog/" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a>
         <a href="/writeups/" {% if page.url == "/writeups/" %}class="active"{% endif %}>Writeups</a>
         <a href="/projects/" {% if page.url == "/projects/" %}class="active"{% endif %}>Projects</a>
     </nav>
@@ -44,11 +48,66 @@
     </footer> -->
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-    const text = "Welcome ! , this is Sunil Kumar aka 0xc1ph3r or Ultron";
-    const typewriter = document.getElementById("typewriter");
-    typewriter.textContent = text;
+    // Lightweight Theme Toggle - Applied to body element
+    (function() {
+        const body = document.body;
+        const themeToggle = document.getElementById('theme-toggle');
+        const moonIcon = '<i class="fas fa-moon"></i>';
+        const sunIcon = '<i class="fas fa-sun"></i>';
+        const STORAGE_KEY = 'theme-preference';
+        const LIGHT_THEME = 'light-theme';
+        const DARK_THEME = 'dark-theme';
+
+        // Initialize theme from localStorage or system preference
+        function initTheme() {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = saved || (prefersDark ? DARK_THEME : LIGHT_THEME);
+            
+            applyTheme(theme);
+        }
+
+        // Apply theme to body and update button
+        function applyTheme(theme) {
+            body.classList.remove(LIGHT_THEME, DARK_THEME);
+            body.classList.add(theme);
+            
+            const isLight = theme === LIGHT_THEME;
+            themeToggle.innerHTML = isLight ? sunIcon : moonIcon;
+            themeToggle.setAttribute('title', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+            localStorage.setItem(STORAGE_KEY, theme);
+        }
+
+        // Toggle theme on button click
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.classList.contains(LIGHT_THEME) ? LIGHT_THEME : DARK_THEME;
+            const newTheme = currentTheme === LIGHT_THEME ? DARK_THEME : LIGHT_THEME;
+            applyTheme(newTheme);
         });
+
+        // Initialize on page load
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initTheme);
+        } else {
+            initTheme();
+        }
+
+        // Respond to system theme changes
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem(STORAGE_KEY)) {
+                applyTheme(e.matches ? DARK_THEME : LIGHT_THEME);
+            }
+        });
+    })();
+
+    // Typewriter effect
+    document.addEventListener("DOMContentLoaded", function() {
+        const text = "> _ Welcome! This is Sunil Kumar (0xc1ph3r / Ultron)";
+        const typewriter = document.getElementById("typewriter");
+        if (typewriter) {
+            typewriter.textContent = text;
+        }
+    });
     </script>
 
 </body>

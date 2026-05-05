@@ -2,7 +2,7 @@
 layout: default
 title: "picoCTF challenges - writeUps"
 # date: 2025-09-16
-categories: cyber security , cryptography
+categories: [Cybersecurity, Cryptography]
 ---
 
 **Challenge divisions :** [MEDIUM](#medium-challs) . [EASY](#easy-challs) . 
@@ -329,7 +329,8 @@ Solution
 
 For the description given in the challenge , wrote a python script that decrypts the Message 
 
-```python 
+{% raw %}
+```python
 numbers = [128, 322, 353, 235, 336, 73, 198, 332, 202, 285, 57, 87, 262, 221, 218, 405, 335, 101, 256, 227, 112, 140]
 
 def decrypt_message(numbers):
@@ -348,6 +349,7 @@ decrypted_message = decrypt_message(numbers)
 flag = f"picoCTF{{{decrypted_message}}}"
 print(flag)
 ```
+{% endraw %}
 
 By running this code I got the flag `picoCTF{R0UND_N_R0UND_79C18FB3}` .
 

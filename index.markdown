@@ -7,22 +7,24 @@ title: Home
 
 **I am<span class="blinking-cursor"></span>**
 
-- A smart Contract Security Researcher in training 
-- A Dapp developer
-- A CTF player ( Specilization :  in cryptography and blockchain )
+- A Smart Contract Security Researcher
+- A Solana & EVM DApp Developer
+- A CTF player (Specialization: cryptography and blockchain)
 
-**What I Do:**  
-- Exploring **Blockchain** & **Smart Contracts** 
-- Diving deep into **Web3 Security & Auditing** 
-- Solving **CTF challenges** and Writing **writeups** (Crypto + Blockchain focus)   
-- Building **full-stack projects** ( Dapps ) 
+**What I Do:** 
+- Auditing smart contracts on EVM and Solana (Code4rena, Cantina , sherlock and more) 
+- Researching Web3 attack vectors, exploit patterns, and vulnerability classes
+- Solving CTF challenges and writing technical writeups (Crypto + Blockchain focus)
+- Building full-stack DApps and ZK-based protocols 
 
 **Currently:**  
-- Mastering **Solidity and Rust**
-- Sharpening skills in **Web3 Security & Exploits**  
-- Actively solving **CTFs** (cryptography & blockchain tracks)  
-- Blogging about my learning path and research  
+- Enrolled in RektOff Cohort 4 — intensive Solana security research bootcamp 
+- Building on Solana as part of the Turbine Q2 2026 Builders Program
+- Actively participating in audit contests on Code4rena and Cantina , more
+- Competing in CTFs under HackerTroupe (PicoCTF 2026 — top 7% globally)
+- Deepening expertise in ZK cryptography and formal verification   
 
 **Goals:**  
-- Become a **pro Web3 Security Researcher & Auditor**  
-- Contribute to **open-source blockchain security tools , web3 security space** 
+- Build a track record of public audit findings and security research 
+- Contribute to **open-source blockchain security tools , web3 security space**
+- Build better solutions on EVM and SVM 

@@ -1,16 +1,3 @@
 {
-  "rewrites": [
-    {
-      "source": "/blog",
-      "destination": "/blogs.html"
-    },
-    {
-      "source": "/explorations",
-      "destination": "/explorations.html"
-    },
-    {
-      "source": "/explorations/:path",
-      "destination": "/explorations/:path.html"
-    }
-  ]
+  "rewrites": []
 }
