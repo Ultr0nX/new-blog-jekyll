@@ -18,8 +18,7 @@ title: Home
 - Building full-stack DApps and ZK-based protocols 
 
 **Currently:**  
-- Enrolled in RektOff Cohort 4 — intensive Solana security research bootcamp 
-- Building on Solana as part of the Turbine Q2 2026 Builders Program
+- Enrolled in RektOff Cohort 5 — intensive Solana security research bootcamp 
 - Actively participating in audit contests on Code4rena and Cantina , more
 - Competing in CTFs under HackerTroupe (PicoCTF 2026 — top 7% globally)
 - Deepening expertise in ZK cryptography and formal verification   
